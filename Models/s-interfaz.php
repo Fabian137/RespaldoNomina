@@ -81,7 +81,7 @@
 
               <div class="col-md-4 top-space-labels form-inline">
                 <label class="form-label" for="start">Num expediente</label>
-                <input class="form-control" type="date" id="date" name="date" min="2022-01-01" max="2025-12-31" required> 
+                <input class="form-control" type="text" id="" name="" required> 
               </div>
               <div class="col-md-3 top-space-labels form-inline">
                 <label for="validationDefault04" class="form-label">Num Empleado</label>
@@ -113,37 +113,63 @@
 
 
         <section class="row g-3" style="margin-bottom: 2rem;">
-          <h6 style="margin-top: 2rem; text-align: center;">DATOS DE FASES DE ALTA</h6>
+          <h6 style="margin-top: 3rem; text-align: center;">DATOS DE FASES DE ALTA</h6>
 
-          <div class="col-md-4 top-space-labels form-inline">
-            <label for="validationDefault04" class="form-label">Tipo contratación</label>
+          <div class="row justify-content-evenly">
+            <div class="col-md-4 top-space-labels form-inline">
+              <label class="form-label" for="start">Fecha Inicio</label>
+              <input class="form-control" type="date" id="date" name="date" min="2022-01-01" max="2025-12-31" required> 
+            </div>
+            <div class="col-md-4 top-space-labels form-inline">
+              <label class="form-label" for="start">Fecha Fin</label>
+              <input class="form-control" type="date" id="date" name="date" min="2022-01-01" max="2025-12-31" required> 
+            </div>
+          </div>
+
+          <div class="col-md-3 top-space-labels form-inline">
+            <label for="validationDefault04" class="form-label">Código de movimiento</label>
             <input type="text" class="form-control" id="" name="" required>
           </div>
-          <div class="col-md-4 top-space-labels form-inline">
-            <label class="form-label" for="start">Fin Contrato</label>
-            <input class="form-control" type="" id="" name="" min="2022-01-01" max="2025-12-31" required> 
-          </div>
-          <div class="col-md-4 top-space-labels form-inline">
-            <label class="form-label" for="start">Centro de trabajo</label>
-            <input class="form-control" type="number" id="" name="" min="2022-01-01" max="2025-12-31" required> 
+          <div class="col-md-3 top-space-labels form-inline">
+            <label for="validationDefault04" class="form-label">Pagaduria</label>
+            <input type="text" class="form-control" id="" name="" required>
           </div>
 
-          <div class="col-md-4 top-space-labels form-inline">
-            <label class="form-label" for="start">Situación Empleado*</label>
-            <input class="form-control" type="number" id="" name="" min="2022-01-01" max="2025-12-31" required> 
-          </div>
-          <div class="col-md-4 top-space-labels form-inline">
-            <label class="form-label" for="start">Zona Pagadora</label>
-            <input class="form-control" type="number" id="" name="" min="2022-01-01" max="2025-12-31" required> 
-          </div>
-          <div class="col-md-4 top-space-labels form-inline">
-            <label class="form-label" for="start">Empresa</label>
-            <input class="form-control" type="number" id="" name="" min="2022-01-01" max="2025-12-31" required> 
+          <div class="col-md" style="margin-top:1rem; display: flex; align-content: center;">
+            <label style="margin:0;" for="validationDefault04" class="form-label">Modo de pago</label>
+            <select class="form-select" name="area" id="">
+              <option value="Coordinación de recursos materiales">Efectivo</option>
+              <option value="Coordinación de recursos materiales">Tarjeta</option>
+            </select>
           </div>
 
-          <div class="col-md-4 top-space-labels form-inline">
-            <label class="form-label" for="start">Grado</label>
-            <input class="form-control" type="number" id="" name="" min="2022-01-01" max="2025-12-31" required> 
+          <div class="row justify-content-evenly">
+          <div class="col-md-3 top-space-labels form-inline">
+            <label for="validationDefault04" class="form-label">Agencia</label>
+            <input type="text" class="form-control small-form" id="" name="" required>
+          </div>
+          <div class="col-md-3 top-space-labels form-inline">
+            <label for="validationDefault04" class="form-label">Num Cuenta</label>
+            <input type="text" class="form-control small-form" id="" name="" required>
+          </div>
+          <div class="col-md-3 top-space-labels form-inline">
+            <label for="validationDefault04" class="form-label">Tipo de Nomina</label>
+            <input type="text" class="form-control small-form" id="" name="" required>
+          </div>
+
+          </div>
+          
+          <div class="col-md-3 top-space-labels form-inline">
+            <label for="validationDefault04" class="form-label">Reg Asistencia</label>
+            <input type="radio" class="form-control" id="" name="" required>
+          </div>
+          <div class="col-md-3 top-space-labels form-inline">
+            <label for="validationDefault04" class="form-label">Num Cuenta</label>
+            <input type="text" class="form-control small-form" id="" name="" required>
+          </div>
+          <div class="col-md-3 top-space-labels form-inline">
+            <label for="validationDefault04" class="form-label">Tipo de Nomina</label>
+            <input type="text" class="form-control small-form" id="" name="" required>
           </div>
         </section>
     </form>

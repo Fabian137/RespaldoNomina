@@ -40,8 +40,9 @@
             <h6 style="text-align: center;">DATOS EMPLEADOS</h6>
             
             <div class="col-md" style="margin-top:1rem; display: flex; align-content: center;">
-                <label style="margin:0;" for="validationDefault04" class="form-label">DIRECCIÓN GENERAL JURÍDICA Y DE ESTUDIOS LEGISLATIVOS</label>
+                <label style="margin:0;" for="validationDefault04" class="form-label">Unidad Administrativa</label>
                 <select class="form-select" name="area" id="">
+                  <option value="Coordinación de recursos materiales">DIRECCIÓN GENERAL JURÍDICA Y DE ESTUDIOS LEGISLATIVOS</option>
                   <option value="Coordinación de recursos materiales">DIRECCIÓN GENERAL DE SERVICIOS LEGALES</option>
                   <option value="Órgano interno de control">DIRECCIÓN GENERAL DEL REGISTRO CÍVIL</option>
                   <option value="Jefatura de abastecimientos y tecnologías">DIRECCIÓN GENERAL DEL REGISTRO PÚBLICO DE LA PROPIEDAD Y DE COMERCIO</option>
@@ -134,25 +135,25 @@
           </div>
           <div class="col-md-4 top-space-labels form-inline">
             <label class="form-label" for="start">Centro de trabajo</label>
-            <input class="form-control" type="number" id="" name="" min="2022-01-01" max="2025-12-31" required> 
+            <input class="form-control" type="text" id="" name="" required> 
           </div>
 
           <div class="col-md-4 top-space-labels form-inline">
             <label class="form-label" for="start">Situación Empleado*</label>
-            <input class="form-control" type="number" id="" name="" min="2022-01-01" max="2025-12-31" required> 
+            <input class="form-control" type="text" id="" name="" required> 
           </div>
           <div class="col-md-4 top-space-labels form-inline">
             <label class="form-label" for="start">Zona Pagadora</label>
-            <input class="form-control" type="number" id="" name="" min="2022-01-01" max="2025-12-31" required> 
+            <input class="form-control" type="text" id="" name="" required> 
           </div>
           <div class="col-md-4 top-space-labels form-inline">
             <label class="form-label" for="start">Empresa</label>
-            <input class="form-control" type="number" id="" name="" min="2022-01-01" max="2025-12-31" required> 
+            <input class="form-control" type="text" id="" name="" required> 
           </div>
 
           <div class="col-md-4 top-space-labels form-inline">
             <label class="form-label" for="start">Grado</label>
-            <input class="form-control" type="number" id="" name="" min="2022-01-01" max="2025-12-31" required> 
+            <input class="form-control" type="text" id="" name="" required> 
           </div>
         </section>
     </form>

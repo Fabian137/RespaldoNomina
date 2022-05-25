@@ -22,12 +22,9 @@ img {
   max-width: 100%;
   width: 9rem;
 }
-.top-space-labels{
-  margin-top: 1.3rem;
-}
-.mb-3 {
-  margin-bottom: 0.5rem!important;
-}
+.top-space-labels{margin-top: 1.5rem;}
+.small-form{width: 50%;}
+.mb-3 {margin-bottom: 0.5rem!important;}
 .foto{
   margin-right: 20px;
   text-align: center;
